@@ -5,11 +5,11 @@
 #
 # -----------------------------------------------------------------------------
 {
-    'name': 'Abogados',
+    'name': 'mono',
     'version': '11.0.0.0.0',
     'license': 'Other OSI approved licence',
     'category': 'Tools',
-    'summary': 'Customizacion para abogados',
+    'summary': 'Customizacion para mono',
     'author': 'NT System Work',
     'depends': [
         # basic applications
@@ -43,11 +43,7 @@
     'port': '8069',
 
     'repos': [
-        {'usr': 'ntsystemwork', 'repo': 'cl-abogados', 'branch': '11.0',
-         'ssh': True},
-
-        {'usr': 'ntsystemwork', 'repo': 'abogados12', 'branch': '11.0',
-         'ssh': True},
+        {'usr': 'jobiols', 'repo': 'cl-mono', 'branch': '11.0'},
 
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '11.0'},
         {'usr': 'jobiols', 'repo': 'rafi16jan-backend-theme',
@@ -79,7 +75,7 @@
     # Note that the branch of the repo to download is taken from the module
     # version
     'git-repos': [
-        'https://github.com/jobiols/cl-abogados.git',
+        'https://github.com/jobiols/cl-mono.git',
         'https://github.com/jobiols/odoo-addons.git',
         'https://github.com/jobiols/adhoc-odoo-argentina.git',
     ],
